@@ -20,6 +20,8 @@ Features include:
 Target:
 - Calories Burned
 
+**Source - Kaggle**
+
 # Approach
 
 - Data Cleaning
