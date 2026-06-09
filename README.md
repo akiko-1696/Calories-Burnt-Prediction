@@ -37,11 +37,12 @@ Target:
 - XGBoost Regressor
 
 # Results
-
-Model performance was evaluated using:
-- MAE (Mean Absolute Error)
-- RMSE (Root Mean Squared Error)
-- R² Score
+| Model                                      |     RMSE |   R² Score |
+|:-------------------------------------------|---------:|-----------:|
+| Linear Regression (Raw Target)             | 10.1149  |   0.974649 |
+| Linear Regression (Log Transformed Target) | 23.4221  |   0.864068 |
+| Random Forest                              |  6.05146 |   0.990926 |
+| XGBoost Regressor                          |  5.9904  |   0.991108 |
 
 XGBoost achieved the best overall performance on the dataset.
 
